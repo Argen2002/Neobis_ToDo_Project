@@ -1,0 +1,27 @@
+<!--<h1>My To Do List</h1>-->
+
+<!--<form method="post" action="{% url 'task_list' %}">-->
+<!--  {% csrf_token %}-->
+<!--  {{ form.as_p }}-->
+<!--  <button type="submit">Add Todo Item</button>-->
+<!--</form>-->
+
+<!--<ul>-->
+<!--  {% for item in all_items %}-->
+<!--  <li>-->
+<!--    <span>{{ item.name }}</span>-->
+<!--    <span>{{ item.description }}</span>-->
+<!--    <form method="post" action="{% url 'delete_item' item.id %}">-->
+<!--      {% csrf_token %}-->
+<!--      <button type="submit">Delete</button>-->
+<!--    </form>-->
+<!--    <form method="post" action="{% url 'edit_task' item.id %}">-->
+<!--      {% csrf_token %}-->
+<!--      <button type="submit">Edit</button>-->
+<!--    </form>-->
+<!--  </li>-->
+<!--  {% endfor %}-->
+<!--</ul>-->
+
+<!--{% block extra_js %}-->
+<!--{% endblock %}-->
